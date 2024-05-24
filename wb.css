@@ -60,3 +60,23 @@ footer {
 .heading{
     text-align: center;
 }
+@media screen and (min-width: 1396px) {
+    /* styles for screens wider than 1396px */
+}
+@media screen and (min-width: 761px) and (max-width: 1395px) {
+    /* styles for screens between 761px and 1395px */
+    div.post {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 760px) {
+    /* styles for screens narrower than 760px */
+    div.post {
+        width: 94%;
+    }
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+  }
